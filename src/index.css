@@ -1,0 +1,28 @@
+﻿@import "tailwindcss";
+
+@theme {
+  --font-serif: "Newsreader", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --color-terracotta: #D95D39;
+  --color-terracotta-dark: #BA4624;
+  --color-parchment: #F6F1E8;
+  --color-parchment-sheet: #FCF9F3;
+  --color-parchment-inset: #EEE7D9;
+  --color-ink: #1C1917;
+  --color-charcoal: #44403C;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  background-color: #F6F1E8;
+  color: #1C1917;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
